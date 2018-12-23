@@ -1,0 +1,590 @@
+body{        
+        padding-top: 87px;
+        padding-bottom: 40px;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+        width: 100%;
+        margin-left:-8px;
+        height: 75px;
+        padding-bottom: 10px;
+    }
+    .fixed-footer{
+        bottom: 0;
+        margin-left:-8px;
+        height: 33px;
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        /* Center the DIV horizontally */
+    }
+    nav  li{
+        color: #fff;  
+        text-decoration: none;
+        margin-left: 50px;
+        height: 40px;
+        display: inline-block;
+        
+    }
+    nav li a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Cambria';
+
+    }
+    #signup
+    {
+        font-family: 'Cambria';
+        color:#656565;
+    }
+    .titlePhoto
+    {
+        margin-top: 10px;
+        display: inline-block;
+        margin-left:150px ;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .search-icon
+    {
+        margin-top: 10px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    .sub-container
+    {
+        margin-top: 0px;
+        margin-left: -8px;
+        width:1366px;
+        height:450px;
+    }
+    .sub-container img
+    {
+        width: 100%;
+        height: 100%;
+        box-shadow: 1px blue;
+
+    }
+    .sub-container h1
+    {
+            color: white;
+            margin-top: -400px;
+            margin-left:550px;
+            font-family: 'Cambria'
+    }
+    #ship
+    {
+    height:80px;
+    width: 90px;
+    border:1px solid red;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top:-350px;
+    margin-left: 550px;
+    }
+    #ship img
+    {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #ship h3
+    {
+        margin-top: -25px;
+        text-align: center;
+    }
+    #rate
+    {
+    position: absolute;
+    height:90px;
+    width: 90px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top:-358px;
+    margin-left: 645px;
+    background-color: purple;
+    }
+    #rate img
+    {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #rate h3
+    {
+        margin-top: -89px;
+        text-align: center;
+        color: blue;
+        
+        font-weight: bold;
+    }
+    
+
+    #track
+    {
+    position: absolute;
+    height:80px;
+    width: 90px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top:-350px;
+    margin-left: 740px;
+    background-color: purple;
+    }
+    #track img
+    {
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #track h3
+    {
+        margin-top: -25px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .input-for-tracking
+    {
+        margin-left: 420px;
+        margin-top: 10px;
+        padding: 10px;
+        width: 400px;
+        height: 40px;
+
+    }
+    .input-for-tracking input[type="text"]
+    {
+    font-family: 'Cambria';
+    font-size: 18px;
+    padding:12px;
+    margin-top: 0 0 0px;
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+    background:#f2f2f2;
+    }
+    .input-for-tracking input[type="submit"]
+    {
+    margin-top: 3px;
+    display: inline-block;
+    font-family: 'Cambria';
+    font-size: 20px;
+    width: 100%;
+    margin-left: 65px;
+    height: 100%;
+    background-color: #00BFFF;
+    border:none;
+    color: white;
+    font-weight:bold;
+    }
+    .sub-container1
+    {
+        margin-top: 300px;
+        margin-left: 300px;
+        font-family: 'Verdana';
+    }
+    .sub-container1 h3
+    {
+        text-decoration: none;
+        color: #696969;
+    }
+    .sub-container1 input[type="submit"]
+    {
+        margin-top: 50px;
+        
+        width:150px;
+        height:50px;
+        border-radius: 20px;
+        border:1px solid blue;
+        font-family: 'Cambria';
+        font-weight: bold;
+        background-color: white
+        color:blue;
+    }
+.advertisement1
+{
+    display: inline-block;
+    height:200px;
+    width:400px;
+
+}
+.advertisement1 img
+{
+    width: 100%;
+    height: 100%;
+    margin-left:450px;
+    margin-top: -200px;
+}
+.advertisement2
+{
+    margin-top: -90px;
+}
+.advertisement2 p
+{
+    margin-top:0px;
+    font-family: 'Verdana';
+    font-size: 18px;
+    color: #696969;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    
+}
+.advertisement2 h3
+{
+    margin-left: 300px;
+
+}
+.advertisement2 img
+{
+   margin-left: 0px;
+   column-width: 400px;
+   position: relative;
+    
+}
+.welcome
+{
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+}
+
+.welcome img{
+    width: 100%;
+    height: 100%;
+}
+
+.Requirements
+{
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+}
+.Requirements img
+{
+    height: 100%;
+    width: 100%;
+
+}
+.Decision
+{
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+}
+.Decision img
+{
+    height: 100%;
+    width: 100%;
+    margin-left: 665px;
+    margin-top: -200px;
+}
+.welcome p{
+
+    margin-top:10px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    color: #696969;
+    margin-left: 0px;
+       
+}
+.Requirements p
+{
+    margin-top:10px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    color: #696969;
+    margin-left: 0px;
+}
+.welcome input[type="text"]{
+
+    margin-top:-80px;
+    font-family: 'Verdana';
+    font-size: 18px;
+    color: #696969;
+    position: absolute;
+    margin-bottom: 50px;
+    margin-left: 0px;       
+}
+.sub-container2
+{
+    margin-top: 100px;
+    background-color: #F5F5F5;
+    margin-left: 0px;
+    width:1365px;
+    font-size: 14px;
+    height:400px;
+    font-family: 'Cambria';
+
+}
+.sub-container2 a{
+    text-decoration: none;
+    color:purple;
+}
+.sub-container2 table
+{
+    margin-left: 250px;
+    margin-top: 60px;
+    position: absolute;
+}
+.Language 
+{
+    border-radius: 50px;
+}
+.sub-container2 hr
+{
+    color: #F5F5F5;
+}
+
+nav li li
+{
+    display: none;
+}
+nav li:hover li
+{
+    display: block;
+    margin-left: -20px;
+
+}
+
+
+#menu
+{
+    margin-top: 10px;
+    background-color: #333;;
+    height:42px;
+    width:100%;
+    font-family: 'cambria';
+    font-weight: bold;
+}
+ #menu ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#menu ul li{
+    
+    float: left;
+    width:200px;
+    height:30px;
+    opacity: .9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+ #menu ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+       
+}
+ 
+#menu ul li ul li{
+    display: none;
+        color:red;
+     
+        
+}
+#menu ul li:hover  ul li{
+    display: block;
+    height: 40px;
+    background-color: #b4b4b4;
+
+}
+#menu ul li ul li a{
+    color: black;
+    font-family: 'Cambria';
+    font-size: 14px;
+    font-weight: bold;
+}
+#menu ul li ul li a:hover{
+    color:black;
+    background-color: green;
+}
+.box
+{
+
+    margin:100px 0px 0px 140px;
+    height:470px;
+    width: 1000px;
+    border:2px solid #5CB3FF;
+    font-family: 'Cambria';
+    
+    
+}
+table th
+{
+    position: absolute;
+    margin-top: -17px;
+    margin-bottom: 10px;
+    background-color: #F0FFFF;
+    height:20px;
+    width: 995px;
+    font-weight: normal;
+    font-family: 'Cambria';
+}
+table hr
+{
+    position: absolute;
+    margin-top: 20px;
+}
+.box input[type="text"]
+{
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    font-family: 'Cambria';
+    font-size: 16px;
+    background-color: #edebeb;
+    border: none;
+}
+.box input[type="submit"]
+{
+    height: 40px;
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #89C35C;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Cambria';
+    font-size: 16px;
+}
+.box select
+{
+    width: 300px;
+    height: 40px;
+    font-family: 'Cambria';
+    font-size: 14px;
+    background-color: #edebeb;
+}
+.box input[type="number"]
+{
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    font-family: 'Cambria';
+    font-size: 14px;
+}
+#header1 p{
+    margin-left: 150px;
+    font-family: "Cambria";
+}
+#reschedule
+{
+    margin-top: 30px;
+    margin-left: 140px;
+    background-color: #F5F5F5;
+    width: 500px;
+    height: 200px;
+    font-family: 'Cambria';
+    font-size: 16px;
+}
+#reschedule img
+{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#reschedule h4
+{
+    margin-left: 80px;
+    margin-top: -35px;
+    font-size:20px;
+}
+#reschedule p
+{
+    margin-left: 20px;
+}
+#reschedule input[type="submit"]
+{
+    height: 40px;
+    width: 200px;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: -40px;
+    color: black;
+    border-radius: 20px;
+    
+    font-family: 'Cambria';
+    font-size: 16px;
+    margin-bottom: 20px;
+    border:blue 1px solid;
+}
+#urgent
+{
+    margin-top: -200px;
+    margin-left: 650px;
+    background-color: #F5F5F5;
+    width: 500px;
+    height: 200px;
+    font-family: 'Cambria';
+    font-size: 16px;
+}
+#urgent img
+{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#urgent h4
+{
+    margin-left: 80px;
+    margin-top: -35px;
+    font-size:20px;
+}
+#urgent p
+{
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+#urgent input[type="submit"]
+{
+    height: 40px;
+    width: 200px;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: -30px;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Cambria';
+    font-size: 16px;
+    margin-bottom: 20px;
+    border:blue 1px solid;
+}
+#introduction
+{
+    height:300px;
+    width: 800px;
+    margin-left: 300px;
+}
+#introduction h4
+{
+    color:skyblue;
+    font-family: 'Cambria'
+    margin-left:-20px;
+}
+#introduction input[type="submit"]
+{
+    height: 40px;
+    width: 200px;
+    padding: 0px;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Cambria';
+    font-size: 16px;
+    margin-bottom: 20px;
+    border:blue 1px solid;   
+    margin-left: -40px;
+}
